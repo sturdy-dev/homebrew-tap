@@ -1,15 +1,15 @@
 class Driva < Formula
     desc "Driva Client"
     homepage "https://driva.dev/"
-    version "0.1.0"
+    version "0.1.1"
     bottle :unneeded
 
     if OS.mac?
         url "https://driva.dev/client/driva-v0.1.1-darwin-amd64.tar.gz"
-        sha256 "bcf6be682293f8a7b79d57050cc9a53d559a7dd11ec90c6d6639700cdcf20187"
+        sha256 "b6579b24505b91776c26a5a81a1470cbb85608423a1f26da93cfa9ee02d4c8e7"
     elsif OS.linux?
         url "https://driva.dev/client/driva-v0.1.1-linux-amd64.tar.gz"
-        sha256 "2019db08fce843160892ea947c9119321d0c007118610161c1193ccdcd0c95eb"
+        sha256 "03c276cee03dcb4aada857b3e7f8c98fcac8cdfcbad225fdc7a31a81cb6f13cd"
     end
 
     def install
