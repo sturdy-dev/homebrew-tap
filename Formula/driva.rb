@@ -5,11 +5,11 @@ class Driva < Formula
     bottle :unneeded
 
     if OS.mac?
-        url "https://driva.dev/client/driva-v0.1-darwin-amd64.tar.gz"
-        sha256 "6e69374a0ebc4d5d37942fb9c8bf5d9e282c28e734a98ca2a6dae4ff095f8c04"
+        url "https://driva.dev/client/driva-v0.1.1-darwin-amd64.tar.gz"
+        sha256 "bcf6be682293f8a7b79d57050cc9a53d559a7dd11ec90c6d6639700cdcf20187"
     elsif OS.linux?
-        url "https://driva.dev/client/driva-v0.1-linux-amd64.tar.gz"
-        sha256 "3920d3755720cf5b656c9794b8b525ebbb1053de5a480defd63ce67d12dc099b"
+        url "https://driva.dev/client/driva-v0.1.1-linux-amd64.tar.gz"
+        sha256 "2019db08fce843160892ea947c9119321d0c007118610161c1193ccdcd0c95eb"
     end
 
     def install
