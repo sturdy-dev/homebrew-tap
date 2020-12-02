@@ -1,15 +1,15 @@
 class Sturdy < Formula
     desc "Sturdy Client"
     homepage "https://driva.dev/"
-    version "0.1.10"
+    version "0.1.11"
     bottle :unneeded
 
     if OS.mac?
-        url "https://driva.dev/client/sturdy-v0.1.10-darwin-amd64.tar.gz"
-        sha256 "5795c3c000c849ce0aec70123c477f2fe53d903b68a1974a2034c40a2f9a121d"
+        url "https://driva.dev/client/sturdy-v0.1.11-darwin-amd64.tar.gz"
+        sha256 "0d0a2faf2213c955bb04017e51d497c105e8b156b7609010a784d4f128a05685"
     elsif OS.linux?
-        url "https://driva.dev/client/sturdy-v0.1.10-linux-amd64.tar.gz"
-        sha256 "edd84bbc79118a6fbc73c2201e32a05796a30b43a980b4a3e88b926aa7265736"
+        url "https://driva.dev/client/sturdy-v0.1.11-linux-amd64.tar.gz"
+        sha256 "55b98590f516d4b4823b816dc052803cd6ba485dd0f0a494c18039b2319d01cb"
     end
 
     def install
