@@ -1,18 +1,19 @@
 class Sturdy < Formula
     desc "Sturdy Client"
     homepage "https://getsturdy.com/"
-    version "0.3.2"
+    version "0.4.6"
     bottle :unneeded
 
     if OS.mac?
-        url "https://getsturdy.com/client/sturdy-v0.3.2-darwin-amd64.tar.gz"
-        sha256 "85c390a89292a17dc55be68dcd6f129dd60f0a17069e8f158698ba5444a58557"
+        url "https://getsturdy.com/client/sturdy-v0.4.6-darwin-amd64.tar.gz"
+        sha256 "88ed8ee7df427fc2a89826a3c5bd6b09a2e5153845d2afb4d693b513c310e87e"
     elsif OS.linux?
-        url "https://getsturdy.com/client/sturdy-v0.3.2-linux-amd64.tar.gz"
-        sha256 "25c3a90cb03d771b76ced97b34ba98285721e5151996cf3d73d2ecf7e845eed6"
+        url "https://getsturdy.com/client/sturdy-v0.4.6-linux-amd64.tar.gz"
+        sha256 "dfac73199e8cdf47ed7832ad067b582beeb5d228fb974d819c399da9960b3090"
     end
 
     def install
         bin.install "sturdy"
+        bin.install "sturdy-sync"
     end
 end
