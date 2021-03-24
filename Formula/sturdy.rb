@@ -1,15 +1,15 @@
 class Sturdy < Formula
     desc "Sturdy Client"
     homepage "https://getsturdy.com/"
-    version "0.4.11"
+    version "0.4.12"
     bottle :unneeded
 
     if OS.mac?
-        url "https://getsturdy.com/client/sturdy-v0.4.11-darwin-amd64.tar.gz"
-        sha256 "7a94e55dfed2d075f13c3de5fbb004a2f5dcb5bfc5ca2f02c7b8c779c4be65db"
+        url "https://getsturdy.com/client/sturdy-v0.4.12-darwin-amd64.tar.gz"
+        sha256 "6d0de65651bf05ee15949a040a3d4d73f93308c2bcaf23cdcee87790bc42fa03"
     elsif OS.linux?
-        url "https://getsturdy.com/client/sturdy-v0.4.11-linux-amd64.tar.gz"
-        sha256 "780fd870a3db5cfb4fbd8cf3cdcca8a8f590c5a9cde4ba464b92ab692ca495fb"
+        url "https://getsturdy.com/client/sturdy-v0.4.12-linux-amd64.tar.gz"
+        sha256 "e0e391a92330f4e8264abba7b9c37c02132e46f7283ee1b1e3ef916f399bba58"
     end
 
     def install
