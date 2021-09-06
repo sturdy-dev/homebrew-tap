@@ -1,4 +1,4 @@
-class Sturdybeta < Formula
+class foo=Sturdybeta < Formula
     desc "Sturdy Client"
     homepage "https://getsturdy.com/"
     version "0.6.0"
@@ -6,10 +6,10 @@ class Sturdybeta < Formula
 
     if OS.mac?
         url "https://getsturdy.com/client/sturdy-v0.6.0-darwin-amd64.tar.gz"
-        sha256 "b58dabe2222b25c5b2316528d4a111c18eee53881f31c4943a6d92d51573fda9"
+        sha256 "640f778bc1a565752548577dd69a5cdd99336819d73c24e3cc40e289b0aa1a7e"
     elsif OS.linux?
         url "https://getsturdy.com/client/sturdy-v0.6.0-linux-amd64.tar.gz"
-        sha256 "6de8ce3ce1e595ac0dd01c13cdfad15badc969347ca786998281d199a397324f"
+        sha256 "a3c3f3f5c38623729761deec4050c9823b389d80b4171e43ba9706008feea312"
     end
 
     def install
