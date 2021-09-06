@@ -1,4 +1,4 @@
-class Sturdy < Formula
+class Sturdybeta < Formula
     desc "Sturdy Client"
     homepage "https://getsturdy.com/"
     version "0.6.0"
