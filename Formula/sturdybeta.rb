@@ -2,7 +2,6 @@ class Sturdybeta < Formula
     desc "Sturdy Client"
     homepage "https://getsturdy.com/"
     version "0.7.4-beta0"
-    bottle :unneeded
 
     if OS.mac? && Hardware::CPU.intel?
         url "https://getsturdy.com/client/sturdy-v0.7.4-beta0-darwin-amd64.tar.gz"
