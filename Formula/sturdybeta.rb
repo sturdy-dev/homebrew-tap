@@ -1,20 +1,20 @@
 class Sturdybeta < Formula
     desc "Sturdy Client"
     homepage "https://getsturdy.com/"
-    version "0.7.5-beta0"
+    version "0.7.5-beta1"
 
     if OS.mac? && Hardware::CPU.intel?
-        url "https://getsturdy.com/client/sturdy-v0.7.5-beta0-darwin-amd64.tar.gz"
-        sha256 "453cee432f78e424a9a2a852765767be2536d62afd900c57a6040cd74b5a4129"
+        url "https://getsturdy.com/client/sturdy-v0.7.5-beta1-darwin-amd64.tar.gz"
+        sha256 "29bc73c2ebc2003c97cdfa2e5f499f779116b19ffc3f7fdc404c9cafce40e595"
     elsif OS.mac? && Hardware::CPU.arm?
-        url "https://getsturdy.com/client/sturdy-v0.7.5-beta0-darwin-arm64.tar.gz"
-        sha256 "7baeeed8419c97b3578472ecf4f22cb2ff483ebea4d9ca87b7e759dd9c4095c5"
+        url "https://getsturdy.com/client/sturdy-v0.7.5-beta1-darwin-arm64.tar.gz"
+        sha256 "f84e35390d1c75da4186289009355d04d3bfe0b7e68324e22755eb7e5fd85aaf"
     elsif OS.linux? && Hardware::CPU.intel?
-        url "https://getsturdy.com/client/sturdy-v0.7.5-beta0-linux-amd64.tar.gz"
-        sha256 "0d19d79608394ab3f9150db8f1b6a878923db8118c26040fd05ec5351d5c1313"
+        url "https://getsturdy.com/client/sturdy-v0.7.5-beta1-linux-amd64.tar.gz"
+        sha256 "573e1ba5bbbb38349152899c0924d4151ae33eca3eb299508c2d4c45233c1728"
     elsif OS.linux? && Hardware::CPU.arm?
-        url "https://getsturdy.com/client/sturdy-v0.7.5-beta0-linux-arm64.tar.gz"
-        sha256 "1a1cd641d46e929dce28bf5232b1d533374204481c734008d5a2621e3f56320b"
+        url "https://getsturdy.com/client/sturdy-v0.7.5-beta1-linux-arm64.tar.gz"
+        sha256 "1c22bb15fbb594b6d2115f553a513edd506b6eec5583c0177427d4b39d559ca5"
     end
 
     def install
